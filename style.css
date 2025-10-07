@@ -1,0 +1,251 @@
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color:  #ff5c00;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 800;
+}
+
+#projects{
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: right;
+    justify-content: right;
+    padding-left: 64%;
+    padding-top: 1%;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #000; /* Change color/thickness */
+    margin: 40px 0;             /* Space around line */
+    width: 100%;
+  }
+
+#book{
+    border: 3px solid  #ff5c00;;
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    text-align: right;
+    color:  #ff5c00;
+}
+
+#top{
+    padding-top: 30px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#book:hover{
+    border: 3px solid  #ff5c00;;
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    text-align: right;
+    color: white;
+    background-color:  #ff5c00;;
+    transition: all 1s ease;
+}
+
+
+#hey{
+    color: black;
+    font-family:"Montserrat", sans-serif;
+    font-size: 45px;
+    padding-top: 100px;
+    font-weight: 800;
+}
+
+#discription{
+    color: black;
+    font-family:"Montserrat", sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+    font-weight: 800;
+}
+
+#work{
+    border: 3px solid #ff5c00;;
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    color:  #ff5c00;; 
+    text-align: center;
+    width: 60%;
+    
+}
+
+#work:hover{
+    border: 3px solid  #ff5c00;;
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    color: white;
+    background-color: #ff5c00;;
+    transition: all 1s ease;
+    text-align: center;
+    width: 60%;
+}
+
+
+#me{
+    width: 65%;
+    padding: 10%;
+    align-items: right;
+    border-radius: 25%;
+    padding-top: 5%;
+
+}
+
+#flex1{
+    display: flex;
+    background-color: #f3d0a3;
+    height: 70vh;
+}
+
+#page1{
+    background-color: #f3d0a3;
+    gap: 20px;
+    justify-content: left;
+    width: 50%;
+    padding-left: 50px;
+}
+
+#adrimg{
+    gap: 20px;
+    justify-content: right;
+
+}
+
+#flex2{
+    display: flex;
+    background-color: white;
+    
+}
+
+
+
+#myapproach{
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-top: 60px;
+
+}
+
+#collab{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+#collabpara{
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+#iterative{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    padding-left: 100px;
+    padding-top: 90px;
+}
+
+#iterpara{
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2{
+    color: black;
+    font-family:"Montserrat", sans-serif;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 800;
+} 
+
+#boxes{
+    display: flex;
+    border-radius: 25%;
+    flex-direction: row;
+    background-color: #eb6b38;
+    width: 10%;
+}
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffffff;
+    color: #000;
+    padding: 40px;
+  }
+  
+
+  .case-studies h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 40px;
+  }
+  
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+ 
+  .card {
+    background-color: #ff5c00;
+    color: #000;
+    padding: 20px 25px;
+    width: 300px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .card a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 0.95rem;
+  }
+  
